@@ -1,7 +1,41 @@
+
+body, html {
+    height: 100%;
+}
 body {
   background-image: url("../images/Pike.jpg");
   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    /* Full height */
+   height: 100%;
     }
-    h1{color: white;}
+body h1{
+
+}
+
+h1{color: white;
+    }
+
+
+  .page-header{
+    color: white;
+  }
+
+.content{
+  display: flex;
+}
+.space{
+  display: flex;
+  width: 75%;
+}
+.vertspace{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  color: white;
+}
+.stuff{
+  display: flex;
+}
